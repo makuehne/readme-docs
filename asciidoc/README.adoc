@@ -1,0 +1,54 @@
+= AsciiDoc readme
+
+This document shows some formatting examples for an asciidoc readme file.
+
+== Basic formatting
+
+This text contains words set *bold* and _italic_. And here is one in
+`monospace`. This is a link to the 
+https://asciidoctor.org/docs/asciidoc-syntax-quick-reference/[Syntax
+Quick Reference] on the Asciidoctor website.
+
+== Lists
+
+=== Unordered
+
+* Item 1
+* Item 2
+** Item 2.1
+** Item 2.2
+* Item 3
+
+=== Ordered
+
+. Item 1
+. Item 2
+.. Item 2.1
+.. Item 2.2
+. Item 3
+
+== Code blocks
+
+For simple command line statements use a monospace block:
+
+----
+> command line 1
+> command line 2
+----
+
+For Java code use a block with syntax highlighting:
+
+[source,java]
+----
+@FunctionalInterface
+public interface HealthCheck {
+    HealthCheckResponse call();
+}
+----
+
+== Footnotes
+
+There is a footnote for this sentence.footnote:[This is the footnote
+text.] If we want to reference the same footnote multiple times
+footnote:refname[Text, that will be referenced twice], then
+give it a name.footnote:refname[]
