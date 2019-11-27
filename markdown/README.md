@@ -45,3 +45,8 @@ public interface HealthCheck {
     HealthCheckResponse call();
 }
 ```
+
+## Resources
+
+- [A template for the readme document structure](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
+- [Advanced example for generating a PDF documentation with Pandoc](https://gist.github.com/Rokko11/8d089afe910790a07d9b989c7666ed17) (from: Javamagazin 12/2019)
